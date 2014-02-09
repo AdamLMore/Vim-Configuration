@@ -16,7 +16,7 @@ set autoindent              "Automatically indents
 set cindent                 "Automatically indents for C code
 set fdm=indent              "Folds based on indents
 set term=xterm-256color     "Sets the terminal to use xterm-256 color
-set t_Co=16                 "Terminal Color 16bit (Used for Solarized
+set t_Co=16                 "Terminal Color 16bit (Used for Solarized)
 set background=dark         "Sets to use dark theme colors
 colorscheme solarized       "Sets the colorscheme to solarized
 set t_ut=                   "Magic line for fixing colors in TMUX
