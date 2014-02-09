@@ -3,24 +3,23 @@ syntax on
 
 filetype off
 
-set showcmd
-set number
-set cmdheight=1
-set ts=4
-set tabstop=4
-set expandtab
-set shiftwidth=4
-set autoindent
-set cindent
-set title
-set wrap
-"set term=xterm-256color
-set t_Co=16 
-set fdm=indent
-set background=dark
-set relativenumber
-colorscheme solarized
-set t_ut=
+set title                   "Sets terminal title to file being edited
+set wrap                    "Wraps text
+set showcmd                 "Shows commands being typed
+set number                  "Shows line numbers
+set relativenumber          "Sets line numbers to be relative to the current line
+set cmdheight=1             "Command bad height
+set tabstop=4               "Sets how many spaces a tab should be
+set expandtab               "Expands tabs to spaces
+set shiftwidth=4            "How many spaces to shift text with via >> or <<
+set autoindent              "Automatically indents
+set cindent                 "Automatically indents for C code
+set fdm=indent              "Folds based on indents
+set term=xterm-256color     "Sets the terminal to use xterm-256 color
+set t_Co=16                 "Terminal Color 16bit (Used for Solarized
+set background=dark         "Sets to use dark theme colors
+colorscheme solarized       "Sets the colorscheme to solarized
+set t_ut=                   "Magic line for fixing colors in TMUX
 
 "set completeopt=longest,menuone "Hides Clang_complete popup menu
 
