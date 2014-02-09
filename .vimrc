@@ -14,11 +14,12 @@ set autoindent
 set cindent
 set title
 set wrap
-set term=xterm-256color
+"set term=xterm-256color
+set t_Co=16 
 set fdm=indent
+set background=dark
 set relativenumber
-
-colorscheme Mustang
+colorscheme solarized
 set t_ut=
 
 "set completeopt=longest,menuone "Hides Clang_complete popup menu
